@@ -1,0 +1,10 @@
+function CreateOddArray(){
+  var Y = [];
+   for(var i=1; i<=5; i++){
+   var x = i;
+       if(i%2===1){
+       Y[i] = x;
+   }
+ }
+   return Y;
+}
